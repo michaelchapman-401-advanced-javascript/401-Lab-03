@@ -1,6 +1,6 @@
 'use strict';
 
-const fileReader = require('./lib/reader-promises.js');
+const fileReader = require('./lib/reader-async.js');
 
 // Obtain and assert input
 let files = process.argv.slice(2);
